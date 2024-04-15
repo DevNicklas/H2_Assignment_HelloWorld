@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("sayHelloBtn").onclick = sayHello;
 })
 
-// Change paragraph 
+// Change paragraph to "Hello World"
 function sayHello() {
     document.getElementById("text").innerHTML = "Hello world";
 }
