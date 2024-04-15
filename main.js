@@ -1,9 +1,5 @@
-document.addEventListener("DOMContentLoaded", function() {
-    alert("Hello world");
-    document.getElementById("sayHelloBtn").onclick = sayHello;
-});
+alert("Hello world");
 
 function sayHello() {
     document.getElementById("text").innerHTML = "Hello world";
 }
-
